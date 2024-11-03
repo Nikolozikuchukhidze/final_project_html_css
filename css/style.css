@@ -1,0 +1,236 @@
+/* header */
+.header {
+    background-color: #012426;
+}
+.header_div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 100px;
+    height: 80px;
+}
+.navlistbox {
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+}
+.navigation_list {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 32px;
+    color: #A1C3C9;
+}
+.navbox_mobile {
+    display: none;
+    align-items: center;
+}
+.navbox_mobile-icon {
+    width: 32px;
+    cursor: pointer;
+}
+.icon_div {
+    width: 63.79px;
+    height: 63.77px;
+}
+.fa-guitar {
+    color: #C46A2B;
+    font-size: 63px;
+}
+.header_rightbox {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.for_icon {
+    color: #05BCCA;
+    font-size: 16px;
+    border: 1px solid #05BCCA;
+    padding: 8px;
+    border-radius: 6px;
+    border: 2px solid rgba(5, 188, 202, 1);
+    cursor: pointer;
+}
+.for_icon:hover{
+    color: rgba(44, 66, 70, 1);
+    background-color: #05BCCA;
+}
+/* main */
+.main1 {
+    background-color: #1A1A1A;
+}
+/* section1 */
+.bigimg {
+    width: 100%;
+}
+/* section2 */
+
+
+.section2 {
+padding: 96px 0 0 0;
+}
+.title1div{
+    display: flex;
+    justify-content: center;
+}
+.title1 {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 52px;
+    text-align: left;
+    color: #05BCCA;
+    text-align: center;
+    border-bottom: 2px solid #05BCCA;
+}
+.popular_productsdiv {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    overflow: auto;
+    width: 1252px;
+    padding-top: 64px;    
+}
+.popular_products {
+    height: 331px;
+    background-color: #2C4246;
+    padding: 8px 8px 16px 8px;
+    
+}
+
+#contact {
+    width: 100%;
+    height: calc(100vh - 80px);
+    background-image: url('../photos/background.png');
+    background-size: cover;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-form {
+    max-width: 1040px;
+    width: 100%;
+    border: 1px solid #05BCCA;
+    background-color: rgba(44, 66, 70, 0.8);
+    border-radius: 6px;
+    display: flex;
+    padding: 25px;
+}
+
+.contact-form-title, .contact-form-content {
+    width: 50%;
+    font-family: "Inter";
+}
+
+.contact-form-content {
+    text-align: center;
+}
+
+.contact-form-content h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.contact-form-content form {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+.contact-form-input, .contact-form-input textarea, .contact-form-input input {
+    width: 100%;
+}
+
+.contact-form-input textarea, .contact-form-input input {
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: transparent;
+    padding: 0 10px;
+    font-size: 16px;
+    outline: none;
+    color: #fff;
+}
+
+.contact-form-input input {
+    height: 40px;
+}
+
+.contact-form-input textarea {
+    padding: 10px;
+}
+
+.contact-form-input textarea::placeholder, .contact-form-input input::placeholder {
+    color: rgba(255, 255, 255, 0.76);
+}
+
+.contact-form-input-flex {
+    display: flex;
+    gap: 50px;
+}
+
+.contact-form-submit button {
+    border: none;
+    outline: none;
+    width: 100%;
+    cursor: pointer;
+    height: 56px;
+    color: #fff;
+    border-radius: 12px;
+    background-color: rgba(196, 106, 43, 1);
+}
+
+@media (max-width: 1180px) {
+    .header_div {
+        padding: 0px 25px;
+    }
+
+    .navbox {
+        position: absolute;
+        top: 80px;
+        left: 0;
+        background-color: rgba(196, 106, 43, 1);
+        padding: 20px;
+        padding-right: 60px;
+        display: none;
+    }
+
+    .navlistbox {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .navbox_mobile {
+        display: flex;
+    }
+    
+    .popular_productsdiv {
+        width: auto;
+    }
+
+    .contact-form {
+        width: 90%;
+        flex-direction: column;
+    }
+
+    .contact-form-title, .contact-form-content {
+        width: 100%;
+    }
+
+    .contact-form-input-flex {
+        flex-direction: column;
+    }
+
+    .contact-form-content form, .contact-form-input-flex {
+        gap: 15px;
+    }
+}
