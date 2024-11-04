@@ -69,7 +69,9 @@
 
 
 .section2 {
-padding: 96px 0 0 0;
+padding: 96px  0;
+overflow-x: hidden;
+width: 100%;
 }
 .title1div{
     display: flex;
@@ -222,6 +224,59 @@ padding: 96px 0 0 0;
 .contact-form-image img {
     border-radius: 10px;
 }
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    padding: 100px 0;
+    background-color: #2C4246;
+    font-family: "Inter", serif;
+    color: #D9D9D9;
+
+
+}
+
+footer ul li.title {
+    position: relative;
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 30px;
+    color: white;
+}
+footer ul li.title::after {
+    content: '';
+    position: absolute;
+    bottom : -5px;
+    left: 0px;
+    width: 80px;
+    height: 2px;
+    background-color: #D9D9D9;
+}
+
+footer ul li.icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+footer ul li.icons span {
+    font-size: 1.4rem;
+    padding: 10px 0;
+}
+
+footer ul li {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+footer ul {
+    width: 200px;
+
+}
+
 
 @media (max-width: 1180px) {
     .header_div {

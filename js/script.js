@@ -1,7 +1,7 @@
-// let btnElement = document.getElementById("btn-click")
-// btnElement.addEventListener("click", function(){
-//     alert("you have successfully bought the guitar!")
-// })
+let btnElement = document.getElementById("btn-click")
+    btnElement.addEventListener("click", function(){
+    alert("you have successfully sent a massage!")
+    })
 
 // Responsive menu
 let isOpened = false;
