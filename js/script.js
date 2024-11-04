@@ -1,5 +1,5 @@
 let btnElement = document.getElementById("btn-click")
-    btnElement.addEventListener("click", function(){
+btnElement?.addEventListener("click", function(){
     alert("you have successfully sent a massage!")
     })
 
