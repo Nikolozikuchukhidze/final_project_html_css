@@ -276,6 +276,9 @@ footer ul {
     width: 200px;
 
 }
+footer a {
+    color: #D9D9D9;
+}
 
 
 @media (max-width: 1180px) {
