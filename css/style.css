@@ -104,6 +104,18 @@ width: 100%;
     padding: 8px 8px 16px 8px;
     
 }
+.popular_title {
+    color: #D9D9D9;
+    font-weight: 700;
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: left;
+
+}
 
 #contact {
     width: 100%;
